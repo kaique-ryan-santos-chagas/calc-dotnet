@@ -23,10 +23,10 @@ static void sub(){
     Console.Write("Digite outro número: ");
     var numberTwo = Console.ReadLine();
 
-    var sum = Double.Parse(numberOne) - Double.Parse(numberTwo);
+    var sub = Double.Parse(numberOne) - Double.Parse(numberTwo);
 
     Console.WriteLine("");
-    Console.WriteLine($"{numberOne} - {numberTwo} = {sum}");
+    Console.WriteLine($"{numberOne} - {numberTwo} = {sub}");
 
 }
 
@@ -40,10 +40,10 @@ static void multi(){
     Console.Write("Digite outro número: ");
     var numberTwo = Console.ReadLine();
 
-    var sum = Double.Parse(numberOne) * Double.Parse(numberTwo);
+    var multi = Double.Parse(numberOne) * Double.Parse(numberTwo);
 
     Console.WriteLine("");
-    Console.WriteLine($"{numberOne} * {numberTwo} = {sum}");
+    Console.WriteLine($"{numberOne} * {numberTwo} = {multi}");
 
 }
 
@@ -57,10 +57,10 @@ static void div(){
     Console.Write("Digite outro número: ");
     var numberTwo = Console.ReadLine();
 
-    var sum = Double.Parse(numberOne) / Double.Parse(numberTwo);
+    var div = Double.Parse(numberOne) / Double.Parse(numberTwo);
 
     Console.WriteLine("");
-    Console.WriteLine($"{numberOne} / {numberTwo} = {sum}");
+    Console.WriteLine($"{numberOne} / {numberTwo} = {div}");
 
 }
 
@@ -72,7 +72,7 @@ Console.WriteLine("");
 Console.WriteLine("1 - Soma.");
 Console.WriteLine("2 - Subtração.");
 Console.WriteLine("3 - Multiplicação.");
-Console.WriteLine("4 - DIvisão.");
+Console.WriteLine("4 - Divisão.");
 Console.WriteLine("");
 
 Console.Write("Digite a opção desejada: ");
